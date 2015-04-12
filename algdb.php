@@ -22,27 +22,11 @@
 	
 	Copyright (C) 2009 Conrad Rider
 
-	CHAGES:
-	(v1.0.2 to 1.1.0)
-	* Seperated out config file
-	* Integrated with MediaWiki 1.19.14
 
 */
 
 	// Import config
 	require "algdb_config.php";
-/*
-	global
-		$DB_NAME,
-		$DB_USERNAME,
-		$DB_PASSWORD,
-		$VISCUBE,
-		$can_add,
-		$can_mod,
-		$USING_WIKI,
-		$WIKI_PAGE,
-		$USERS;
-*/
 
 	$GLOBALS['ALGDB_USING_WIKI'] = $USING_WIKI;
 	
@@ -993,8 +977,9 @@ form .form_short{
 			</ol>
 			<br/><br/>
 			<h2>Updates</h2>
-			<h3>12th Apr 2015, v1.0.2 => v1.0.3</h3>
+			<h3>12th Apr 2015, v1.0.2 => v1.1.0</h3>
 			<ol>
+				<li>Integrated with MediaWiki 1.19.14</li>
 				<li>Seperated out config into a seperate file.</li>
 				<li>Improved integration with visualcube.</li>
 			</ol>
