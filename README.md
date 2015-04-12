@@ -30,3 +30,7 @@ wget https://raw.githubusercontent.com/Cride5/visualcube/master/cube_lib.php
 ```
 if(!$wgCommandLineMode){ require_once "$IP/extensions/algdb/MediawikiAlgDB.php";}
 ```
+ 5. Visit the installer page to set up the database:
+```
+http://www.mysite.com/wiki/index.php/Special:MediawikiAlgDB?install
+```
