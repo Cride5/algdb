@@ -1,0 +1,41 @@
+body{
+	text-algin:center;
+}
+table{
+	margin:50px auto;
+}
+.list_table{
+	border-spacing:0;
+	
+}
+.fade{
+	color:silver;
+}
+#case_table a{
+	text-decoration:none;
+}
+table th{
+	border:1px solid silver;
+	padding:3px 5px;
+}
+table td{
+	border:1px solid silver;
+	padding:3px 5px;
+}
+#case_table{
+	border-spacing:30px 20px;
+}
+img{	border:0; }
+em{
+	font-style:normal;
+	font-weight:bold;
+}
+form .form_num{
+	width:20px;
+	height:20px;
+}
+form .form_short{
+	width:50px;
+	height:20px;
+
+}
