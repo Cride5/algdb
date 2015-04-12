@@ -14,7 +14,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => 'Conrad Rider',
 	'url' => 'http://localhost/mediawiki/index.php/Special:MediawikiAlgDB',
 	'descriptionmsg' => "{{mediawikialgdb-desc}}",
-	'version' => '1.0.3',
+	'version' => '1.1.0',
 );
 
 $wgAutoloadClasses['SpecialMediawikiAlgDB'] = __DIR__ . '/SpecialMediawikiAlgDB.php'; # Location of the SpecialMyExtension class (Tell MediaWiki to load this file)

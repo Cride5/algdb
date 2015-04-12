@@ -23,7 +23,7 @@
 	Copyright (C) 2009 Conrad Rider
 
 	CHAGES:
-	(v1.0.2 to 1.1)
+	(v1.0.2 to 1.1.0)
 	* Seperated out config file
 	* Integrated with MediaWiki 1.19.14
 
@@ -46,7 +46,7 @@
 
 	$GLOBALS['ALGDB_USING_WIKI'] = $USING_WIKI;
 	
-	$VERSION = "1.0.3";
+	$VERSION = "1.1.0";
 	$UPDATED = "12 Apr 2015";
 	
 	$can_add = false;
