@@ -97,6 +97,7 @@
 	|| (!$USING_WIKI && array_key_exists('user', $_REQUEST) && in_array($_REQUEST['user'], $USERS))){
 		$user = $_REQUEST['user'];
 		$can_mod = true;
+		$can_add = true;
 		
 		// Admin stuff...
 		
